@@ -1,0 +1,230 @@
+
+
+*{
+box-sizing: border-box;
+padding: 0;
+  margin: 0;
+}
+ 
+  .container{
+
+  
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 100vh;
+ margin: auto;
+ justify-content: center;
+ align-items:center ;
+ text-align: center;
+
+}
+
+.container h1{
+ 
+margin-bottom: 20;
+ 
+}
+
+.container .prod{
+ align-items: center;
+ justify-content: center;
+ display: flex;
+                                                                                       
+ width:85%;
+ height: 50%;
+ 
+  
+}
+
+.prod .first{
+
+  position: relative;
+  border:1px solid rgb(251, 255, 0) ;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin:20px;
+  background: rgb(102, 96, 96);
+  width:30%;
+  height:40%;
+  align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.prod .first h2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    text-align: center;
+    border:1px solid black ;
+    padding: 10px 20px ;
+    background: yellow;
+
+}
+
+.prod .second{
+  position: relative;
+  border:1px solid rgb(251, 255, 0) ;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin:20px;
+  background: rgb(102, 96, 96);
+  width:30%;
+  height:40%;
+  align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.prod .second h2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    text-align: center;
+    background: red;
+    padding: 10px 20px ;
+    border:1px solid black ;
+
+}
+
+.prod .third{
+
+  position: relative;
+  border:1px solid rgb(251, 255, 0) ;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin:20px;
+  background: rgb(102, 96, 96);
+  width:30%;
+  height:40%;
+  align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.prod .third h2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    text-align: center;
+    background: palevioletred;
+    padding: 10px 20px ;
+    border:1px solid black ;
+
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+ .container{
+ 
+  width: 100%;
+  justify-content: center;
+  align-items:center ;
+  
+ }
+
+ .container .prod{
+ height:60%;
+ flex-flow: row wrap;
+ 
+}
+
+ .prod .first{
+float: right;
+
+flex-basis: 40%;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+ }
+ .prod .second{
+  flex-basis: 40%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .prod .third{
+  flex-basis: 70%;
+align-items: center;
+justify-content: center;
+text-align: center;
+ }
+ .prod .first h2{
+font-size: 20px;
+padding: 3px 10px ;
+
+ }
+ .prod .second h2{
+  font-size: 20px;
+  padding: 3px 20px ;
+  
+   }
+   .prod .third h2{
+    font-size: 20px;
+    padding: 3px 20px ;
+    
+     }
+ 
+}
+
+ 
+@media (max-width:767px){
+  .container{
+ 
+    width: 100%;
+    justify-content: center;
+    align-items:center ;
+    
+   }
+  
+   .container .prod{
+   height:70%;
+     flex-direction: column;
+     
+      
+   
+  }
+  .prod .first{
+  
+    width:90%;
+    height:30%;
+    align-items: center;
+justify-content: center;
+text-align: center;
+  }
+  .prod .second{
+    
+
+   width:90%;
+   height:30%;
+   align-items: center;
+justify-content: center;
+text-align: center;
+ }
+ .prod .third{
+ 
+ width:90%;
+ height:30%;
+ align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+ 
+
+
+}
+ 
+ 
